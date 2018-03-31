@@ -18,5 +18,11 @@ public class retengel {
             double jarak;
             jarak=panjang*rendah;
             return jarak;
+         }
+        
+        void cetakluas(){
+            System.out.println("rendahnya adalah: "+hitungjarak());
+        }
+    }
     
 }
