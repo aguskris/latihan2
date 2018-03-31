@@ -6,5 +6,17 @@ public class retengel {
     public retengel(){
         panjang=8;
         rendah=6;
+    }
+    
+    void cetakInfo(){
+        System.out.println("===================");
+        System.out.println("panjang : "+panjang);
+        System.out.println("rendah :    "+rendah);
+        System.out.println("===================");
+        
+        double hitungluas(){
+            double jarak;
+            jarak=panjang*rendah;
+            return jarak;
     
 }
